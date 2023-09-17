@@ -1,8 +1,8 @@
 {
-  "module_id": "ianwhalen:neopixel",
-  "visibility": "public",
-  "url": "https://github.com/ianwhalen/led",
-  "description": "A driver for the Adafruit Neopixel line of LED displays.",
+  "module_id": "b4deb7ed-c2f2-4c60-a0b6-f2bffd7c8869:naomiled",
+  "visibility": "private",
+  "url": "https://github.com/npentrel/led",
+  "description": "Test module based on Ian's module",
   "models": [
     {
       "api": "rdk:component:generic",
