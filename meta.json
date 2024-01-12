@@ -9,5 +9,9 @@
       "model": "ianwhalen:ianwhalen:neopixel"
     }
   ],
-  "entrypoint": "run.sh"
+  "entrypoint": "run.sh",
+  "build": {
+    "build": "tar -czf module.tar.gz run.sh requirements.txt led.py main.py",
+    "arch" : ["linux/amd64", "linux/arm64", "darwin/arm64"]
+  }
 }
